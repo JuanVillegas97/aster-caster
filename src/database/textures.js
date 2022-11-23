@@ -10,12 +10,6 @@ import EarthNormalMap from '../assets/textures/earth/8k_earth_normal_map.jpg'
 import EarthSpecularMap from '../assets/textures/earth/8k_earth_specular_map.jpg'
 import EarthCloudsMap from '../assets/textures/earth/8k_earth_clouds.jpg'
 
-//Grass 2
-import GrassMap from '../assets/textures/grass/grass_bermuda_01_diff_4k.jpg' //MAIN TEXTURE
-import DisplacementGrassMap from '../assets/textures/grass/grass_bermuda_01_arm_4k.jpg' //Displacement TEXTURE
-import AOGrassMap from '../assets/textures/grass/grass_bermuda_01_ao_4k.jpg'
-import normalGrassMap from '../assets/textures/grass/grass_bermuda_01_nor_gl_4k.jpg'
-import roughnessGrassMap from '../assets/textures/grass/grass_bermuda_01_rough_4k.jpg'
 
 //Concrete 3
 import ConcreteMap from '../assets/textures/concrete/concrete_wall_006_diff_4k.jpg' //MAIN TEXTURE
@@ -65,8 +59,8 @@ export const Textures = [
         map: ConcreteMap,
         displacementMap: DisplacementConcreteMap,
         aoMap: AOConcreteMap,
-        roughnessMap: roughnessGrassMap,
-        metalnessMap: normalConcreteMap,
+        roughnessMap: AOConcreteMap,
+        metalnessMap: AOConcreteMap,
         normalMap: normalConcreteMap
     },
 ];
