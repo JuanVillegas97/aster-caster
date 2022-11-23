@@ -2,7 +2,7 @@
 import RockMap from '../assets/textures/rock/aerial_rocks_02_diff_4k.jpg' //MAIN TEXTURE
 import DisplacementRockMap from '../assets/textures/rock/aerial_rocks_02_disp_4k.jpg' //Displacement TEXTURE
 import AORockMap from '../assets/textures/rock/aerial_rocks_02_arm_4k.jpg'
-import normalRockMap from '../assets/textures/rock/aerial_rocks_02_nor_gl_4k.jpg'
+import normalRockMap from '../assets/textures/rock/aerial_rocks_02_arm_4k.jpg'
 
 //Earth 1
 import EarthDayMap from '../assets/textures/earth/8k_earth_daymap.jpg'
@@ -60,7 +60,7 @@ export const Textures = [
         displacementMap: DisplacementConcreteMap,
         aoMap: AOConcreteMap,
         roughnessMap: AOConcreteMap,
-        metalnessMap: AOConcreteMap,
+        metalnessMap: normalConcreteMap,
         normalMap: normalConcreteMap
     },
 ];
